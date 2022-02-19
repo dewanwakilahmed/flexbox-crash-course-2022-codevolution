@@ -53,6 +53,7 @@ body {
   font-size: 1.5rem;
   padding: 1rem;
   text-align: center;
+  flex-grow: 1;
 }
 
 .item-1 {
@@ -77,10 +78,12 @@ body {
 
 .item-5 {
   background-color: #6b0803;
+  /* flex-grow: 1; */
 }
 
 .item-6 {
   background-color: #1c4c56;
+  /* flex-grow: 3; */
 }
 
 .item-7 {
