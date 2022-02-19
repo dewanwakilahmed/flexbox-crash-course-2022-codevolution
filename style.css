@@ -16,11 +16,15 @@ body {
   /* flex-direction: column-reverse; */
 
   /* flex-wrap: nowrap; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* flex-wrap: wrap-reverse; */
 
   /* flex-flow: row nowrap; */
-  flex-flow: row-reverse wrap;
+  /* flex-flow: row-reverse wrap; */
+
+  /* column-gap: 20px; */
+  /* row-gap: 30px; */
+  gap: 40px 20px;
 }
 
 .flex-item {
