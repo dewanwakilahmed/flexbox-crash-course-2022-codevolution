@@ -4,7 +4,7 @@ body {
 
 .container {
   border: 6px solid black;
-  height: 400px;
+  /* height: 400px; */
 
   /* display: inline-flex; */
   display: flex;
@@ -12,12 +12,15 @@ body {
   /* flex-direction: row; */
   /* flex-direction: row-reverse; */
 
-  flex-direction: column;
+  /* flex-direction: column; */
   /* flex-direction: column-reverse; */
 
   /* flex-wrap: nowrap; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse; */
+
+  /* flex-flow: row nowrap; */
+  flex-flow: row-reverse wrap;
 }
 
 .flex-item {
