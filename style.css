@@ -4,7 +4,7 @@ body {
 
 .container {
   border: 6px solid black;
-  /* height: 400px; */
+  height: 600px;
 
   /* display: inline-flex; */
   display: flex;
@@ -12,11 +12,11 @@ body {
   /* flex-direction: row; */
   /* flex-direction: row-reverse; */
 
-  /* flex-direction: column; */
+  flex-direction: column;
   /* flex-direction: column-reverse; */
 
   /* flex-wrap: nowrap; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse; */
 
   /* flex-flow: row nowrap; */
@@ -24,7 +24,14 @@ body {
 
   /* column-gap: 20px; */
   /* row-gap: 30px; */
-  gap: 40px 20px;
+  /* gap: 40px 20px; */
+
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
 }
 
 .flex-item {
