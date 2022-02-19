@@ -4,6 +4,7 @@ body {
 
 .container {
   border: 6px solid black;
+  height: 400px;
 
   /* display: inline-flex; */
   display: flex;
@@ -13,6 +14,10 @@ body {
 
   flex-direction: column;
   /* flex-direction: column-reverse; */
+
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
 }
 
 .flex-item {
