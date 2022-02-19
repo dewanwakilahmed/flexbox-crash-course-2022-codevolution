@@ -62,12 +62,13 @@ body {
   background-color: #b4bf35;
   /* padding-bottom: 3rem; */
   /* flex-basis: auto; */
-  flex-basis: 200px;
+  /* flex-basis: 200px; */
 }
 
 .item-2 {
   background-color: #b95f21;
   /* padding-bottom: 5rem; */
+  flex: 1 0 auto;
 }
 
 .item-3 {
