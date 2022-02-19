@@ -4,7 +4,7 @@ body {
 
 .container {
   border: 6px solid black;
-  height: 600px;
+  /* height: 600px; */
 
   /* display: inline-flex; */
   display: flex;
@@ -16,7 +16,7 @@ body {
   /* flex-direction: column-reverse; */
 
   /* flex-wrap: nowrap; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse; */
 
   /* flex-flow: row nowrap; */
@@ -45,7 +45,7 @@ body {
   /* align-content: center; */
   /* align-content: space-between; */
   /* align-content: space-around; */
-  align-content: space-evenly;
+  /* align-content: space-evenly; */
 }
 
 .flex-item {
@@ -68,6 +68,7 @@ body {
 .item-3 {
   background-color: #1c4c56;
   /* padding-bottom: 3rem; */
+  order: 1;
 }
 
 .item-4 {
@@ -84,6 +85,7 @@ body {
 
 .item-7 {
   background-color: #b95f21;
+  order: 2;
 }
 
 .item-8 {
@@ -92,4 +94,5 @@ body {
 
 .item-9 {
   background-color: #aad041;
+  order: 1;
 }
